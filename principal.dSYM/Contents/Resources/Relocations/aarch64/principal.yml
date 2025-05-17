@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     principal
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _lire_automate_depuis_fichier, symObjAddr: 0x0, symBinAddr: 0x10000217C, symSize: 0x354 }
+  - { offsetInCU: 0x5D, offset: 0x5D, size: 0x8, addend: 0x0, symName: _lire_automate_depuis_fichier, symObjAddr: 0x0, symBinAddr: 0x10000217C, symSize: 0x354 }
+  - { offsetInCU: 0x144, offset: 0x144, size: 0x8, addend: 0x0, symName: _appliquer_une_etape, symObjAddr: 0x354, symBinAddr: 0x1000024D0, symSize: 0x1E8 }
+  - { offsetInCU: 0x222, offset: 0x222, size: 0x8, addend: 0x0, symName: _afficher_configuration, symObjAddr: 0x53C, symBinAddr: 0x1000026B8, symSize: 0x88 }
+  - { offsetInCU: 0x262, offset: 0x262, size: 0x8, addend: 0x0, symName: _configurations_identiques, symObjAddr: 0x5C4, symBinAddr: 0x100002740, symSize: 0xBC }
+  - { offsetInCU: 0x2B4, offset: 0x2B4, size: 0x8, addend: 0x0, symName: _simuler_automate, symObjAddr: 0x680, symBinAddr: 0x1000027FC, symSize: 0x39C }
+  - { offsetInCU: 0x432, offset: 0x432, size: 0x8, addend: 0x0, symName: _lire_machine_turing, symObjAddr: 0xA1C, symBinAddr: 0x100002B98, symSize: 0x4B8 }
+  - { offsetInCU: 0x56E, offset: 0x56E, size: 0x8, addend: 0x0, symName: _effectuer_un_pas, symObjAddr: 0xED4, symBinAddr: 0x100003050, symSize: 0x2F0 }
+  - { offsetInCU: 0x61C, offset: 0x61C, size: 0x8, addend: 0x0, symName: _afficher_ruban, symObjAddr: 0x11C4, symBinAddr: 0x100003340, symSize: 0x148 }
+  - { offsetInCU: 0x65F, offset: 0x65F, size: 0x8, addend: 0x0, symName: _simuler_machine_turing, symObjAddr: 0x130C, symBinAddr: 0x100003488, symSize: 0x140 }
+  - { offsetInCU: 0x6A3, offset: 0x6A3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x144C, symBinAddr: 0x1000035C8, symSize: 0x394 }
+...

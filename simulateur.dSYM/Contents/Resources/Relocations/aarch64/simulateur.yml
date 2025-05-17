@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     simulateur
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _lire_machine_turing, symObjAddr: 0x0, symBinAddr: 0x1000033B0, symSize: 0x4BC }
+  - { offsetInCU: 0x5D, offset: 0x5D, size: 0x8, addend: 0x0, symName: _lire_machine_turing, symObjAddr: 0x0, symBinAddr: 0x1000033B0, symSize: 0x4BC }
+  - { offsetInCU: 0x190, offset: 0x190, size: 0x8, addend: 0x0, symName: _initialiser_configuration, symObjAddr: 0x4BC, symBinAddr: 0x10000386C, symSize: 0xE8 }
+  - { offsetInCU: 0x208, offset: 0x208, size: 0x8, addend: 0x0, symName: _afficher_cellules, symObjAddr: 0x5A4, symBinAddr: 0x100003954, symSize: 0x108 }
+  - { offsetInCU: 0x256, offset: 0x256, size: 0x8, addend: 0x0, symName: _simuler_etape_cellulaire, symObjAddr: 0x6AC, symBinAddr: 0x100003A5C, symSize: 0x284 }
+  - { offsetInCU: 0x342, offset: 0x342, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x930, symBinAddr: 0x100003CE0, symSize: 0x15C }
+...
